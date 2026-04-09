@@ -1,36 +1,76 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+README – ADIPA (Next.js + SEO Optimizado)
+# ADIPA — Plataforma de Cursos de Psicología  
+Proyecto construido con **Next.js (App Router)**, **TypeScript**, **TailwindCSS** y optimizado para SEO.
 
-## Getting Started
+---
 
-First, run the development server:
+## 🚀 Requisitos previos
 
-```bash
+Asegúrate de tener instalados en tu equipo:
+
+- **Node.js 18+**
+- **npm**, **yarn**, **pnpm** o **bun**
+- **Git**
+
+---
+
+## 📦 Instalación
+
+Clonar el repositorio:
+
+```sh
+git clone https://github.com/tu-org/adipa.git
+cd adipa
+
+Instalar dependencias:
+
+npm install
+# o
+yarn install
+# o
+pnpm install
+🛠 Ejecutar en modo desarrollo
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Abrir en navegador:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+http://localhost:3000
+🏗 Build para producción
+npm run build
+npm start
+🧩 Tecnologías principales
+Next.js  (App Router)
+TypeScript
+TailwindCSS
+Google Fonts (Geist)
+Context API para búsquedas
+SEO Avanzado
+Metadata extendida
+Open Graph
+Twitter Card
+Canonical URLs
+JSON-LD (Organization)
+Sitemap automáticο
+Robots configurado
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+🔍 SEO incluido en este proyecto
+Configuración de metadata global con title template
+Optimización CLS de fuentes con display: swap
+Schema JSON-LD para Google
+Open Graph para compartir en redes
+Twitter Card
+Icons universales
+Sitemap dinámico
+Robots que permite indexación
 
-## Learn More
+Todos los archivos están en /app/layout.tsx, /app/sitemap.ts y /app/robots.ts.
 
-To learn more about Next.js, take a look at the following resources:
+🧪 Scripts disponibles
+Script	Descripción
+npm run dev	Ejecuta el servidor de desarrollo
+npm run build	Compila para producción
+npm start	Servidor de producción
+npm run lint	Corre el linter
+📄 Licencia
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Proyecto privado — ADIPA.
