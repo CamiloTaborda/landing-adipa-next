@@ -19,8 +19,8 @@ Asegúrate de tener instalados en tu equipo:
 Clonar el repositorio:
 
 ```sh
-git clone https://github.com/tu-org/adipa.git
-cd adipa
+git clone https://github.com/CamiloTaborda/landing-adipa-next
+cd landing-adipa-next
 
 Instalar dependencias:
 
